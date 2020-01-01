@@ -1,7 +1,10 @@
 {
-  "name": "js-v2ray",
+  "name": "@shynome/v2ray-user",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
-  "description": "js v2ray valitor",
+  "description": "node v2ray user valitor",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -16,17 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shynome/js-v2ray.git"
+    "url": "git+https://github.com/shynome/node-v2ray-user.git"
   },
   "keywords": [
-    "v2ray"
+    "v2ray user"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shynome/js-v2ray/issues"
+    "url": "https://github.com/shynome/node-v2ray-user/issues"
   },
-  "homepage": "https://github.com/shynome/js-v2ray#readme",
+  "homepage": "https://github.com/shynome/node-v2ray-user#readme",
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.2",
