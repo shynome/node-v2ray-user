@@ -1,7 +1,7 @@
 {
   "name": "js-v2ray",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "js v2ray valitor",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -18,9 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/shynome/js-v2ray.git"
   },
-  "keywords": [],
+  "keywords": [
+    "v2ray"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shynome/js-v2ray/issues"
   },
