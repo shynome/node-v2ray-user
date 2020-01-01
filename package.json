@@ -1,0 +1,41 @@
+{
+  "name": "js-v2ray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "jest",
+    "preversion": "npm t",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shynome/js-v2ray.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shynome/js-v2ray/issues"
+  },
+  "homepage": "https://github.com/shynome/js-v2ray#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.2",
+    "@types/node-int64": "^0.4.29",
+    "@types/uuid-parse": "^1.0.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "node-int64": "^0.4.0",
+    "uuid-parse": "^1.1.0"
+  }
+}
