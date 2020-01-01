@@ -1,6 +1,6 @@
 {
   "name": "js-v2ray",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "js v2ray valitor",
   "main": "dist/index.js",
   "files": [
